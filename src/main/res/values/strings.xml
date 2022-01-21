@@ -1,0 +1,11 @@
+<resources>>
+    <string name="app_name">哔哩哔哩</string>
+    <string name="login">登录</string>
+    <string name="zhuche">注册</string>
+    <string name="user_hint">请输入手机号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="contrnt_shouye">首页</string>
+    <string name="contrnt_dynamics">动态</string>
+    <string name="contrnt_wode">我的</string>
+    <string name="contrnt_recommend">推荐</string>
+</resources>

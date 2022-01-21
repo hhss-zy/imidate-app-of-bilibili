@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication2" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/huise</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="imagedialog" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+       <!--窗口边框 无-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否悬浮在 ACtivity -->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否全屏 -->
+        <item name="android:windowFullscreen">true</item>
+        <!--背景颜色 -->
+        <item name="android:windowBackground">#D3D1D1</item>
+        <!--背景是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
